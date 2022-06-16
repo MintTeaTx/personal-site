@@ -113,7 +113,6 @@ span, footer {  line-height: 1.8; }
 .tm-row {
     display: flex;
     margin-left: -25px;
-    margin-left: -25px;
 }
 
 .tm-col {
@@ -457,8 +456,6 @@ figure.effect-goliath:hover p {
     .navbar-toggler:hover { color: #99CC99; }
 
     .tm-content {
-        padding-left: 20px;
-        padding-right: 20px;
         padding: 50px 20px;
     }
 
@@ -538,4 +535,8 @@ figure.effect-goliath:hover p {
         width: 100px;
         height: 100px;
     }
+}
+
+img {
+    border-radius: 50%;
 }
