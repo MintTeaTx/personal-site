@@ -19,7 +19,7 @@ exports.Load = function (req, res, filename) {
     //
     // fs.readFile("./ui/html/pages"+filename+".html", function (err, data) {
     //     if (err) {
-    //         res.writeHead(404, {'Content-Type': 'text/html'});
+    //         res.writeHead(404.ejs, {'Content-Type': 'text/html'});
     //         return res.end(err.message);
     //     }
     //     res.write(data);

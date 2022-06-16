@@ -16,6 +16,10 @@ app.get('/projects/dev', function (req,res){
    res.render('templates/template', {filename :'/projects/dev'});
 });
 
+app.all('*', (req, res) => {
+   res.render('templates/template', {filename :'/404'});
+});
+
 app.listen(8080, function ()
 {
    console.log('listening on 8080');
@@ -45,7 +49,7 @@ app.listen(8080, function ()
 //                 const cls = require('./common/staticpage');
 //                 cls.Load(req, res, filename);
 //             } catch (e) {
-//                 res.writeHead(404, {'Content-Type': 'text/html'});
+//                 res.writeHead(404.ejs, {'Content-Type': 'text/html'});
 //                 return res.end("cheeky");
 //                 console.log(e);
 //             }

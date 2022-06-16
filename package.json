@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "personal-site",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "my own home on the internet, wtf",
   "engines": {
     "node": "16.x"
   },
