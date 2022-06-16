@@ -172,7 +172,7 @@ span, footer {  line-height: 1.8; }
 
 .nav-link:hover,
 .nav-link.current {
-    color: #99CC99;
+    color: #fff;
 }
 
 /* Introduction */
